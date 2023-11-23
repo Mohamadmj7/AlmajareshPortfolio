@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3708b5dc32.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-test"></div>
+            <p class="subtitle">Computer Programmer</p>
+            
+            <h1>Hi, I'm <span style="color: rgb(82, 222, 17);">Mohamad</span><br> Almajaresh from Canada, </h1>
+            <h1>I like <span style="color: rgb(82, 222, 17); font-weight: bold; text-transform: uppercase; font-size: 24px;">Sport Cars</span> and <span style="color: rgb(82, 222, 17);">Programming.</span></h1>
+        </div>
+
+    </div>
+<!-- --------about------- -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Mohamad, a detail-oriented and enthusiastic software development intern. 
+                        I have successfully completed the program, earning a Computer Programming diploma from Algonquin College. 
+                        I am dedicated to honing my skills and gaining hands-on experience in software development. 
+                        My objective was to contribute to the success of mdf commerce Inc. 
+                        as a Software Development Intern, where I leveraged my technical skills and problem-solving 
+                        abilities to produce high-quality code and collaborate effectively with team members</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span style="color: rgb(82, 222, 17);">Programming Languages</span><br>Proficient in languages such as C, Python, and others studied during coursework</li>
+                                <li><span style="color: rgb(82, 222, 17);">Web Development</span><br>Skills in web programming, mobile graphical interface programming, and relational database design</li>
+                                <li><span style="color: rgb(82, 222, 17);">App Development</span><br>Building Android/IOS apps</li>
+                                <li><span style="color: rgb(82, 222, 17);">Networking</span><br>Knowledge and experience in network programming</li>
+                                <li><span style="color: rgb(82, 222, 17);">Operating Systems</span><br>Familiarity with operating systems, including processor architecture understanding</li>
+                                <li><span style="color: rgb(82, 222, 17);">Cybersecurity</span><br>Currently enrolled in the Google Cybersecurity Analyst Certificate program, with knowledge in organizational impact, risk identification, SIEM tools, and proficiency in Python, Linux, and SQL for cybersecurity applications</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span style="color: rgb(82, 222, 17);">2020<br>Construction Manager and Estimator </span>
+                                <br>Successfully managed and designed estimates for customers. Created bills for projects and ensured they were completed within budget and on time. Communicated effectively with clients to ensure satisfaction. Developed project timelines and ensured all tasks were completed in accordance with deadlines.
+                                </li>
+                        
+                                <li><span style="color: rgb(82, 222, 17);">2018 <br>Teacher's Assistant, Alnoor Arabic School</span>
+                                <br>Assisted teachers in the classroom and provided support for children. Facilitated the provision of supplies and helped with administrative tasks.
+                                </li>
+                        
+                                <li><span style="color: rgb(82, 222, 17);">2016<br>
+                                    Youth Center Artist, OCISO Youth Center</span><br>Created murals and other artwork to decorate the youth center. Provided face painting for children during events. Photographed performances at large events.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <div class="education-item">
+                                        <a href="https://www.algonquincollege.com/pembroke/program/computer-programming/#summary" target="_blank" rel="noopener noreferrer">
+                                            <span style="color: rgb(82, 222, 17);" class="education-title">Computer Programming, Algonquin College</span>
+                                        </a>
+                                        
+
+                                        
+                                        <span style="color: rgb(82, 222, 17);" class="education-details">
+                                            - Two Years Ontario College Advanced Diploma<br>
+                                            - Graduated June 2023
+                                            <br>
+                                            <br>
+                                        </span>
+                                        <div class="relevant-courses">
+                                            <span style="color: rgb(82, 222, 17);" class="course-title">Relevant Courses:</span>
+                                            <ul>
+                                                <li>Software Development Project</li>
+                                                <li>Enterprise Application Programming</li>
+                                                <li>Mobile Graphical Interface Programming</li>
+                                                <li>Relational Database Design</li>
+                                                <li>Object-Oriented Programming</li>
+                                                <li>Data Structures</li>
+                                                <li>Network Programming</li>
+                                                <li>Web Programming</li>
+                                                <li>Processor Architecture</li>
+                                                <li>Computing Mathematics</li>
+                                                <li>Operating Systems</li>
+                                                <li>C Language</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <span style="color: rgb(82, 222, 17);" class="education-details">
+                                            Enrolled in a <a href="https://www.coursera.org/enroll/google-cybersecurity/paidmedia?utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_google-cybersecurity_google_FTCOF_professional-certificates_country-CA&campaignid=20099713824&adgroupid=147557958846&device=c&keyword=google%20cybersecurity%20professional%20certificate&matchtype=b&network=g&devicemodel=&adposition=&creativeid=670439520372&hide_mobile_promo&gclid=CjwKCAiA6byqBhAWEiwAnGCA4NRc1_WJcpt62edF3MoIWiq-v1irmr7HxaqhND2YCH67wY_1m73OBBoCy70QAvD_BwE"
+                                            target="_blank" rel="noopener noreferrer" style="color: rgb(82, 222, 17);">Google Cybersecurity Analyst Certificate</a>- Expected graduation April 2024<br>
+                                            <br>
+                                        </span>
+                                        
+                                        <span class="education-details">
+                                            - Cybersecurity knowledge with a focus on organizational impact.
+                                            <br>
+                                            - Identification and mitigation of common risks, threats, and vulnerabilities.
+                                            <br>
+                                            - Hands-on experience using SIEM tools for network and data protection.
+                                            <br>
+                                            - Proficiency in Python, Linux, and SQL for cybersecurity applications.
+                                            <br>
+                                        </span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----Portfolio---- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-lis">
+            <div class="work">
+                <img src="images/a cybersecurity 0.png">
+                <div class="layer">
+                    <h2>Cybersecurity Project</h2>
+                    <p>Implemented cybersecurity measures to protect user data and ensure secure connections. Project involved hands-on experience with SIEM tools and proficiency in Python for security applications.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WebApp.jpeg">
+                <div class="layer">
+                    <h2>App Programming Project</h2>
+                    <p>Developed Android/IOS apps with a focus on secure coding practices. Applied knowledge in mobile graphical interface programming and integrated cybersecurity features.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WebDesign.jpeg">
+                <div class="layer">
+                    <h2>Website Designing Project</h2>
+                    <p>Created responsive and user-friendly websites, applying skills in web programming and relational database design. Emphasized cybersecurity best practices in web development.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+    <!-- --------contact------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>mo.almajaresh@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i>(873)354-4477</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100010917108781" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamad-b07418245/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mohamedmj7_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    
+                    <a href="#" onclick="checkPassword();" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div> 
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; <span id="currentYear"></span> Mohamad. All rights reserved.<i class="fa-solid fa-shield-heart"></i>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }  
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Update the element with the current year
+        document.getElementById('currentYear').textContent = currentYear;
+
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzJBWCt3708i7PpKSoCGD2lz-ZZKLEFN86Bve_C-UP6NNnWpdnK5gP43x5CwNoVvaHF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+        <script>
+            function checkPassword() {
+                var enteredPassword = prompt("Enter the password:");
+                var correctPassword = "MResume70";
+                var fileURL = "Mohamad Almajaresh Rusme.pdf";
+
+                if (enteredPassword === correctPassword) {
+                    window.open(fileURL, "_blank");
+                } else {
+                    alert("Incorrect password. Please try again.");
+                }
+            }
+        </script>
+
+</body>
+</html>
